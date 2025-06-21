@@ -1,4 +1,92 @@
 .top {
-    font-family: "Arial";
     text-align: center;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.project-holder {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    padding-top: 20px;
+    background-color: rgb(154,109,227);
+    border-radius: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+
+.currentprojects {
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(173,240,151);
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 30px;
+    transition: opacity 0.5s;
+}
+
+.currentprojects:hover {
+    opacity: 0.8;
+}
+
+.pastprojects {
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(240,229,151);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    transition: opacity 0.5s;
+}
+
+.pastprojects:hover {
+    opacity: 0.8;
+}
+
+.futureprojects {
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(151,240,229);
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    transition: opacity 0.5s;
+}
+
+.futureprojects:hover {
+    opacity: 0.8;
+}
+
+.changelog {
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(240,151,151);
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    transition: opacity 0.5s;
+}
+
+.changelog:hover {
+    opacity: 0.8;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+a {
+    color: rgb(54,9,61);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(154,9,61);
+}
+
+body {
+    background-color: lightgrey;
+    font-family: Arial, sans-serif;
 }
