@@ -6,6 +6,7 @@
     border-radius: 20px;
 }
 
+
 .project-holder {
     display: flex;
     gap: 80px;
@@ -89,4 +90,45 @@ a:hover {
 body {
     background-color: lightgrey;
     font-family: Arial, sans-serif;
+}
+
+.youtubechannel {
+    display: flex;
+    flex: 1 1 0;
+    gap: 20px;
+    padding: 10px;
+    background-color: pink;
+    border-radius: 20px;
+    max-width: 50%;
+    max-height: none;
+}
+
+.youtubechanneltext {
+    text-align: left;
+    padding: 10px;
+}
+
+.youtubechannelimage {
+    padding-right: 0px;
+    padding-left: 0px;
+    max-height: 100%;
+    width: auto;
+}
+
+.feedback {
+    background-color: rgb(185,163,255);
+    flex: 1 1 0;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 50%;
+}
+
+.aboutme {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 20px;
+    padding: 10px;
+    max-height: 320px;
 }
