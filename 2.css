@@ -1,0 +1,216 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.subscribeBtn{
+    background-color:rgb(200,0,0);
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    border: none;
+    transition: opacity 0.15s;
+}
+.subscribeBtn:hover {
+    opacity: 0.8;
+}
+.subscribeBtn:active {
+    opacity: 0.5;
+}
+
+
+.joinBtn{
+    background-color: white;
+    border-color: lightskyblue;
+    border-style: solid;
+    border-width: 1px;
+    color: lightskyblue;
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.joinBtn:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.joinBtn:active {
+    opacity: 0.7;
+}
+.tweetBtn{
+    background-color: rgb(29,161,242);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    border: none;
+    margin-left: 5px;
+    transition: box-shadow 0.15s;
+}
+
+.tweetBtn:hover {
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+}
+
+.uberBtn{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 110px;
+    height: 40px;
+    border: none;
+    opacity: 1;
+    transition: opacity 0.15s;
+}
+
+.uberBtn:hover {
+    opacity: 0.75;
+}
+
+.amazonBtn{
+    background-color: rgb(255,216,0);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    width: 140px;
+    height: 30px;
+    transition: background-color 1s;
+}
+
+.amazonBtn:hover {
+    background-color: rgb(255,164,28);
+}
+
+.amazonBtn:active {
+    opacity: 0.8;
+}
+.githubBtn {
+    background-color: rgb(46, 164, 79);
+    border-radius: 6px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    width: 90px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.githubBtn:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+.bootstrapBtn1 {
+    background-color: rgb(121, 82, 179);
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    margin-right: 6px;
+    height: 40px;
+    width: 100px;
+}
+
+.bootstrapBtn1:hover {
+    background-color: rgb(100, 60, 150);
+}
+
+.bootstrapBtn2 {
+    color: grey;
+    background-color: white;
+    border-color: grey;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+    border: solid 0.5px;
+    transition: color 0.15s, background-color 0.15s;
+}
+
+.bootstrapBtn2:hover {
+    background-color: grey;
+    color: white;
+}
+.amazonlink {
+    color: rgb(0,113,133)
+}
+
+.amazonlink:hover {
+    color: rgb(110,86,20);
+}
+
+.nike {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+}
+
+.stock {
+    color: rgb(0,118,0);
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.delivery {
+    font-family: "Times New Roman";
+}
+
+.AmazonBtn2 {
+    background-color: rgb(255,164,28);
+    border-radius: 20px;
+    border: none;
+    height: 30px;
+    width: 140px;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 0.15s;
+}
+.AmazonBtn2:hover{
+    opacity: 0.8;
+}
+.AmazonBtn2:active {
+    opacity: 0.5;
+
+.linkedinBtn1 {
+    background-color: rgb(10,102,194);
+    color: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.15s;
+    cursor: pointer;
+}
+
+.linkedinBtn1:hover {
+    background-color: rgb(10,80,194)
+}
+.linkedinBtn2 {
+    border-color: rgb(10,102,194);
+    color: rgb(10,102,194);
+    background-color: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 60px;
+    border: solid 1px;
+    font-weight: bold;
+    border-width: 2px;
+    cursor: pointer;
+    transition: border-width 0.15s;
+}
+
+.linkedinBtn2:hover {
+    border-width: 3px;
+
+}                    }
