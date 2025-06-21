@@ -132,3 +132,10 @@ body {
     padding: 10px;
     max-height: 320px;
 }
+
+.whoami {
+    background-color: rgb(240,151,151);
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 12px;
+}
