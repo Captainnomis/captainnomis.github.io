@@ -1,0 +1,5 @@
+v1.0: Created index.html with style.css and also included the old coding projects into the portfolio
+
+future development
+1. complete 8 hour coding
+2. think why the image doesn't work with github
