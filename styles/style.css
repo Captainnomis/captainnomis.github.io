@@ -9,13 +9,15 @@
 
 .project-holder {
     display: flex;
-    gap: 80px;
+    gap: 50px;
     justify-content: center;
     padding-top: 20px;
-    background-color: rgb(154,109,227);
+    background-color: lightblue;
     border-radius: 20px;
     padding-bottom: 20px;
-    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 12px;
 }
 
 .currentprojects {
@@ -26,6 +28,7 @@
     padding-right: 5px;
     padding-bottom: 30px;
     transition: opacity 0.5s;
+    margin-left: 10px;
 }
 
 .currentprojects:hover {
@@ -68,6 +71,7 @@
     padding-right: 20px;
     padding-bottom: 30px;
     transition: opacity 0.5s;
+    margin-right: 10px;
 }
 
 .changelog:hover {
@@ -131,11 +135,18 @@ body {
     margin-top: 20px;
     padding: 10px;
     max-height: 320px;
+    background-color: whitesmoke;
+    border-radius: 20px;
 }
 
 .whoami {
     background-color: rgb(240,151,151);
+    margin-top: 20px;
     border-radius: 20px;
     padding: 20px;
     font-size: 12px;
+}
+
+.youtubechannelimage {
+    border-radius: 20px;
 }
