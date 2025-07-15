@@ -179,7 +179,7 @@ body {
 }
 .AmazonBtn2:active {
     opacity: 0.5;
-
+}
 .linkedinBtn1 {
     background-color: rgb(10,102,194);
     color: white;
@@ -213,4 +213,4 @@ body {
 .linkedinBtn2:hover {
     border-width: 3px;
 
-}                    }
+}                    
