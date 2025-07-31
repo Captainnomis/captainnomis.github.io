@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Exercise 9 of SuperSimpleDev</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .ninea {
+            background-color: red;
+            width: 100px;
+            height: 100px;
+        }
+
+        .nineb {
+            border-radius: 50%;
+            background-color: green;
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+        }
+
+        .ninec {
+            border: 1px solid rgb(100,100,100);
+            width: 300px;
+            padding: 20px;
+        }
+
+        .nined {
+            background-color: black;
+            width: 350px;
+            padding: 5px;
+            margin-top: 5px;
+        }
+
+        .twitter {
+            margin-top: 10px;
+            border: 1px solid rgb(200,200,200);
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 10px;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+        }
+        .tweetBtn{
+        background-color: rgb(29,161,242);
+        color: white;
+        border-radius: 20px;
+        cursor: pointer;
+        width: 80px;
+        height: 40px;
+        border: none;
+        margin-left: 5px;
+        transition: box-shadow 0.15s;
+        font-weight: bold;
+        vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <p>9A. Create a div and turn it into a red square</p>
+    <div class="ninea"></div>
+    <p>9B. Create a div and turn it into a green circle</p>
+    <div class="nineb"></div>
+    <p>9C. Recreate a element</p>
+    <div class="ninec">
+        <p>Satisfied with our service?</p>
+        <button>Yes</button>
+        <button>No</button>
+    </div>
+    <div class="nined">
+        <h1 style="color: white;">Install YouTube Music</h1>
+        <p style="color: rgb(200,200,200)">Add YouTube Music to your desktop for quick and easy access</p>
+    </div>
+    <div class="twitter">
+            <img src="/Images/exercise7.jpg" style="vertical-align: middle; width: 50px; height: 50px; border-radius: 50%; object-fit: cover; object-position: center; margin-right: 5px;">
+            <input type="text" placeholder="What's happening?" style="vertical-align: center; border: none; font-size: 18px; width: 300px;">
+            <button class="tweetBtn">Tweet</button>
+    </div>
+</body>
+</html>
