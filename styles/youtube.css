@@ -1,5 +1,5 @@
 .thumbnail {
-    width: 300px;
+    width: 100%;
     display: block;
 }
 
@@ -17,27 +17,10 @@ p {
     font-size: 14px;
 }
 
-.video-preview {
-    width: 300px;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 15px;
-}
-
 .search-bar {
     display: block;
 }
 
-.channel-picture {
-    display: inline-block;
-    width: 50px;
-    vertical-align: top;
-}
-
-.video-info {
-    display: inline-block;
-    width: 200px;
-}
 
 .profile-picture {
     width: 100%;
@@ -55,4 +38,16 @@ p {
 
 .video-author {
     margin-bottom: 4px; 
+}
+
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
 }
