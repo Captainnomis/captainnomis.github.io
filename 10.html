@@ -9,6 +9,42 @@
             font-family: Arial, sans-serif;
             font-size: 20px;
         }
+
+        .horizontal-block {
+            width: 30%;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .profilepic {
+            width: 200px;
+            height: 200px;
+        }
+
+        .mutualfriendspic {
+            height: 28px;
+            width: 28px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .add-friend {
+            background-color: rgb(24,119,242);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 15px 40px 15px 40px;
+            margin-bottom: 5px;
+        }
+
+        .mutual-friends {
+            vertical-align: top;
+        }
+
+        .exercise10e h3 {
+            font-weight: bold;
+            font-size: 32px;
+        }
     </style>
 </head>
 <body>
@@ -20,5 +56,49 @@
     <img src="Images/10b.png">
     <p>Exercise 10C</p>
     <img src="Images/10c.png">
+    <p>Exercise 10D</p>
+    <img src="Images/10d.png">
+    <div class="exercise10e">
+        <div class="horizontalblock">
+            <div class="top">
+                <img src="Images/cat.jpg" class="profilepic">
+            </div>
+            <div class="bottom">
+                <h3>Oliver</p>
+                <div class="mutual-friends">
+                    <img src="Images/dog2.jpg" class="mutualfriendspic">
+                    <p style="display: inline-block;">2 mutual friends</p>
+                </div>
+                <button class="add-friend">Add Friend</button>
+            </div>
+        </div>
+        <div class="horizontalblock">
+            <div class="top">
+                <img src="Images/cat2.jpg" class="profilepic">
+            </div>
+            <div class="bottom">
+                <h3>Mimi</p>
+                <div class="mutual-friends">
+                    <img src="Images/dog2.jpg" class="mutualfriendspic">
+                    <p style="display: inline-block">3 mutual friends</p>
+                </div>
+                <button class="add-friend">Add Friend</button>
+            </div>
+        </div>
+        <div class="horizontalblock">
+            <div class="top">
+                <img src="Images/dog.jpg" class="profilepic">
+            </div>
+            <div class="bottom">
+                <h3>Rex</p>
+                <div class="mutual-friends">
+                    <img src="Images/dog2.jpg" class="mutualfriendspic">
+                    <p style="display: inline-block;">1 mutual friend</p>
+                </div>
+                <button class="add-friend">Add Friend</button>
+            </div>
+        </div>
+    </div>
+    
 </body>
 </html>
